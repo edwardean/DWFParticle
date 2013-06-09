@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CACD43E6176426F6006FE63E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD43E5176426F6006FE63E /* UIKit.framework */; };
+		CACD43E8176426F6006FE63E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD43E7176426F6006FE63E /* Foundation.framework */; };
+		CACD43EA176426F6006FE63E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD43E9176426F6006FE63E /* CoreGraphics.framework */; };
+		CACD43F0176426F6006FE63E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CACD43EE176426F6006FE63E /* InfoPlist.strings */; };
+		CACD43F2176426F6006FE63E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD43F1176426F6006FE63E /* main.m */; };
+		CACD43F6176426F6006FE63E /* DWFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD43F5176426F6006FE63E /* DWFAppDelegate.m */; };
+		CACD43F8176426F6006FE63E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CACD43F7176426F6006FE63E /* Default.png */; };
+		CACD43FA176426F6006FE63E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CACD43F9176426F6006FE63E /* Default@2x.png */; };
+		CACD43FC176426F6006FE63E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CACD43FB176426F6006FE63E /* Default-568h@2x.png */; };
+		CACD43FF176426F6006FE63E /* DWFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD43FE176426F6006FE63E /* DWFViewController.m */; };
+		CACD4402176426F6006FE63E /* DWFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CACD4400176426F6006FE63E /* DWFViewController.xib */; };
+		CACD440917642710006FE63E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACD440817642710006FE63E /* QuartzCore.framework */; };
+		CACD440C17642765006FE63E /* DWFParticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CACD440B17642765006FE63E /* DWFParticleView.m */; };
+		CACD440E176429A4006FE63E /* Particles_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = CACD440D176429A4006FE63E /* Particles_fire.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CACD43E2176426F6006FE63E /* DrwWithFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrwWithFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACD43E5176426F6006FE63E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CACD43E7176426F6006FE63E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CACD43E9176426F6006FE63E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CACD43ED176426F6006FE63E /* DrwWithFire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrwWithFire-Info.plist"; sourceTree = "<group>"; };
+		CACD43EF176426F6006FE63E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CACD43F1176426F6006FE63E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CACD43F3176426F6006FE63E /* DrwWithFire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrwWithFire-Prefix.pch"; sourceTree = "<group>"; };
+		CACD43F4176426F6006FE63E /* DWFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWFAppDelegate.h; sourceTree = "<group>"; };
+		CACD43F5176426F6006FE63E /* DWFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWFAppDelegate.m; sourceTree = "<group>"; };
+		CACD43F7176426F6006FE63E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CACD43F9176426F6006FE63E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CACD43FB176426F6006FE63E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CACD43FD176426F6006FE63E /* DWFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWFViewController.h; sourceTree = "<group>"; };
+		CACD43FE176426F6006FE63E /* DWFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWFViewController.m; sourceTree = "<group>"; };
+		CACD4401176426F6006FE63E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DWFViewController.xib; sourceTree = "<group>"; };
+		CACD440817642710006FE63E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CACD440A17642765006FE63E /* DWFParticleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWFParticleView.h; path = ../DWFParticleView.h; sourceTree = "<group>"; };
+		CACD440B17642765006FE63E /* DWFParticleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWFParticleView.m; path = ../DWFParticleView.m; sourceTree = "<group>"; };
+		CACD440D176429A4006FE63E /* Particles_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particles_fire.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CACD43DF176426F6006FE63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD440917642710006FE63E /* QuartzCore.framework in Frameworks */,
+				CACD43E6176426F6006FE63E /* UIKit.framework in Frameworks */,
+				CACD43E8176426F6006FE63E /* Foundation.framework in Frameworks */,
+				CACD43EA176426F6006FE63E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CACD43D9176426F6006FE63E = {
+			isa = PBXGroup;
+			children = (
+				CACD43EB176426F6006FE63E /* DrwWithFire */,
+				CACD43E4176426F6006FE63E /* Frameworks */,
+				CACD43E3176426F6006FE63E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CACD43E3176426F6006FE63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CACD43E2176426F6006FE63E /* DrwWithFire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CACD43E4176426F6006FE63E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACD440817642710006FE63E /* QuartzCore.framework */,
+				CACD43E5176426F6006FE63E /* UIKit.framework */,
+				CACD43E7176426F6006FE63E /* Foundation.framework */,
+				CACD43E9176426F6006FE63E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CACD43EB176426F6006FE63E /* DrwWithFire */ = {
+			isa = PBXGroup;
+			children = (
+				CACD43F4176426F6006FE63E /* DWFAppDelegate.h */,
+				CACD43F5176426F6006FE63E /* DWFAppDelegate.m */,
+				CACD43FD176426F6006FE63E /* DWFViewController.h */,
+				CACD43FE176426F6006FE63E /* DWFViewController.m */,
+				CACD4400176426F6006FE63E /* DWFViewController.xib */,
+				CACD440A17642765006FE63E /* DWFParticleView.h */,
+				CACD440B17642765006FE63E /* DWFParticleView.m */,
+				CACD43EC176426F6006FE63E /* Supporting Files */,
+			);
+			path = DrwWithFire;
+			sourceTree = "<group>";
+		};
+		CACD43EC176426F6006FE63E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CACD440D176429A4006FE63E /* Particles_fire.png */,
+				CACD43ED176426F6006FE63E /* DrwWithFire-Info.plist */,
+				CACD43EE176426F6006FE63E /* InfoPlist.strings */,
+				CACD43F1176426F6006FE63E /* main.m */,
+				CACD43F3176426F6006FE63E /* DrwWithFire-Prefix.pch */,
+				CACD43F7176426F6006FE63E /* Default.png */,
+				CACD43F9176426F6006FE63E /* Default@2x.png */,
+				CACD43FB176426F6006FE63E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CACD43E1176426F6006FE63E /* DrwWithFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACD4405176426F6006FE63E /* Build configuration list for PBXNativeTarget "DrwWithFire" */;
+			buildPhases = (
+				CACD43DE176426F6006FE63E /* Sources */,
+				CACD43DF176426F6006FE63E /* Frameworks */,
+				CACD43E0176426F6006FE63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrwWithFire;
+			productName = DrwWithFire;
+			productReference = CACD43E2176426F6006FE63E /* DrwWithFire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CACD43DA176426F6006FE63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DWF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Lihang;
+			};
+			buildConfigurationList = CACD43DD176426F6006FE63E /* Build configuration list for PBXProject "DrwWithFire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CACD43D9176426F6006FE63E;
+			productRefGroup = CACD43E3176426F6006FE63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CACD43E1176426F6006FE63E /* DrwWithFire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CACD43E0176426F6006FE63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD43F0176426F6006FE63E /* InfoPlist.strings in Resources */,
+				CACD43F8176426F6006FE63E /* Default.png in Resources */,
+				CACD43FA176426F6006FE63E /* Default@2x.png in Resources */,
+				CACD43FC176426F6006FE63E /* Default-568h@2x.png in Resources */,
+				CACD4402176426F6006FE63E /* DWFViewController.xib in Resources */,
+				CACD440E176429A4006FE63E /* Particles_fire.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CACD43DE176426F6006FE63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CACD43F2176426F6006FE63E /* main.m in Sources */,
+				CACD43F6176426F6006FE63E /* DWFAppDelegate.m in Sources */,
+				CACD43FF176426F6006FE63E /* DWFViewController.m in Sources */,
+				CACD440C17642765006FE63E /* DWFParticleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CACD43EE176426F6006FE63E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACD43EF176426F6006FE63E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CACD4400176426F6006FE63E /* DWFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CACD4401176426F6006FE63E /* en */,
+			);
+			name = DWFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CACD4403176426F6006FE63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CACD4404176426F6006FE63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CACD4406176426F6006FE63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrwWithFire/DrwWithFire-Prefix.pch";
+				INFOPLIST_FILE = "DrwWithFire/DrwWithFire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CACD4407176426F6006FE63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrwWithFire/DrwWithFire-Prefix.pch";
+				INFOPLIST_FILE = "DrwWithFire/DrwWithFire-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CACD43DD176426F6006FE63E /* Build configuration list for PBXProject "DrwWithFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACD4403176426F6006FE63E /* Debug */,
+				CACD4404176426F6006FE63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACD4405176426F6006FE63E /* Build configuration list for PBXNativeTarget "DrwWithFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACD4406176426F6006FE63E /* Debug */,
+				CACD4407176426F6006FE63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CACD43DA176426F6006FE63E /* Project object */;
+}
