@@ -20,6 +20,22 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [fireView setEmitterPositionFromTouch:[touches anyObject]];
+    [fireView setIsEmitting:YES];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    [fireView setEmitterPositionFromTouch:[touches anyObject]];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    [fireView setIsEmitting:NO];
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    [fireView setIsEmitting:NO];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

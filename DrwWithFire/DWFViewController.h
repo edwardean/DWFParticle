@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface DWFViewController : UIViewController
+#import "DWFParticleView.h"
+@interface DWFViewController : UIViewController {
+    IBOutlet DWFParticleView *fireView;
+}
 
 @end

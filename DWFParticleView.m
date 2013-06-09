@@ -29,7 +29,7 @@
     //add a CAEmitterCell to the CAEmitterLayer
     CAEmitterCell *fire = [CAEmitterCell emitterCell];
     
-    fire.birthRate = 200;//The number of emitted objects created every second.For a good fire or waterfall you need at least few hundred particles, so we set this to 200.
+    fire.birthRate = 0;//The number of emitted objects created every second.For a good fire or waterfall you need at least few hundred particles, so we set this to 200.
     
     fire.lifetime = 3.0;//The number of seconds before a particle should disappear. We set this to 3.0.
     
@@ -56,7 +56,10 @@
     fireEmitter.emitterCells = [NSArray arrayWithObject:fire];
 }
 
-
+- (void)setIsEmitting:(BOOL)isEmitting {
+    //turn on/off the emitting of particles
+    [fireEmitter setValue:[NSNumber numberWithInt:isEmitting?200:0] forKeyPath:@"emitterCells.fire.birthRate"];
+}
 //The UIView method which tells UIKit which class to use for the CALayer of the view
 + (Class)layerClass { //3
     //configure the UIView to have emitter layer
@@ -71,6 +74,11 @@
     return self;
 }
 
+
+- (void)setEmitterPositionFromTouch:(UITouch *)t {
+    //change the emitter's position
+    fireEmitter.emitterPosition = [t locationInView:self];
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

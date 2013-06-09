@@ -10,4 +10,6 @@
 
 @interface DWFParticleView : UIView
 
+- (void)setEmitterPositionFromTouch:(UITouch *)t;
+- (void)setIsEmitting:(BOOL)isEmitting;
 @end
